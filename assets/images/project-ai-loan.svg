@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="loanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="aiPillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="16" fill="url(#loanBg)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="160" y1="0" x2="160" y2="500"/>
+    <line x1="320" y1="0" x2="320" y2="500"/>
+    <line x1="480" y1="0" x2="480" y2="500"/>
+    <line x1="640" y1="0" x2="640" y2="500"/>
+  </g>
+
+  <!-- App Header Bar -->
+  <rect x="30" y="24" width="740" height="48" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="56" cy="48" r="6" fill="#EF4444"/>
+  <circle cx="76" cy="48" r="6" fill="#F59E0B"/>
+  <circle cx="96" cy="48" r="6" fill="#10B981"/>
+  <text x="120" y="53" fill="#E2E8F0" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="14">AI Loan Eligibility &amp; BFSI Platform</text>
+  <rect x="580" y="34" width="170" height="28" rx="14" fill="url(#aiPillGrad)"/>
+  <text x="665" y="52" fill="#FFFFFF" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="12" text-anchor="middle">⚡ Claude AI Powered</text>
+
+  <!-- Left Card: Loan Eligibility & Credit Score -->
+  <rect x="30" y="90" width="355" height="380" rx="14" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(255,255,255,0.1)" filter="url(#softShadow)"/>
+  
+  <text x="54" y="125" fill="#94A3B8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1">TOOL 1 &amp; 2</text>
+  <text x="54" y="148" fill="#F8FAFC" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700">Eligibility &amp; Credit Score</text>
+
+  <!-- Score Gauge Arc Representation -->
+  <circle cx="207" cy="235" r="65" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="12" stroke-dasharray="280" stroke-dashoffset="70"/>
+  <circle cx="207" cy="235" r="65" fill="none" stroke="url(#accentGrad)" stroke-width="12" stroke-dasharray="280" stroke-dashoffset="130" stroke-linecap="round"/>
+  
+  <text x="207" y="235" fill="#10B981" font-family="'Segoe UI', system-ui, sans-serif" font-size="30" font-weight="800" text-anchor="middle">780</text>
+  <text x="207" y="255" fill="#94A3B8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" text-anchor="middle">Excellent CIBIL Score</text>
+  <rect x="142" y="275" width="130" height="24" rx="12" fill="rgba(16, 185, 129, 0.15)"/>
+  <text x="207" y="291" fill="#10B981" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">HIGH APPROVAL 94%</text>
+
+  <!-- Metrics row -->
+  <rect x="50" y="325" width="145" height="60" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="65" y="348" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="11">Max Loan Amount</text>
+  <text x="65" y="372" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">₹ 25,00,000</text>
+
+  <rect x="210" y="325" width="155" height="60" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="225" y="348" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="11">Interest Rate</text>
+  <text x="225" y="372" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">8.45% p.a.</text>
+
+  <!-- Eligibility Status Badge -->
+  <rect x="50" y="405" width="315" height="42" rx="8" fill="rgba(59, 130, 246, 0.1)" stroke="rgba(59, 130, 246, 0.3)"/>
+  <text x="68" y="431" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">✓ Eligible for Instant Pre-Approved Home &amp; Personal Loan</text>
+
+  <!-- Right Side Top Card: EMI Calculator -->
+  <rect x="405" y="90" width="365" height="175" rx="14" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(255,255,255,0.1)" filter="url(#softShadow)"/>
+  <text x="425" y="122" fill="#F59E0B" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="1">TOOL 3: SMART EMI ENGINE</text>
+  <text x="425" y="145" fill="#F8FAFC" font-family="'Segoe UI', system-ui, sans-serif" font-size="17" font-weight="700">Monthly EMI: ₹ 24,180 / mo</text>
+  
+  <!-- Interactive-like sliders -->
+  <text x="425" y="176" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Tenure: 10 Years (120 Months)</text>
+  <rect x="425" y="186" width="325" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+  <rect x="425" y="186" width="180" height="6" rx="3" fill="url(#goldGrad)"/>
+  <circle cx="605" cy="189" r="8" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+
+  <text x="425" y="218" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Principal: ₹20L | Interest Payable: ₹9.01L</text>
+  <rect x="425" y="228" width="325" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+  <rect x="425" y="228" width="220" height="6" rx="3" fill="url(#accentGrad)"/>
+  <circle cx="645" cy="231" r="8" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Right Side Bottom Card: Claude AI Financial Tips -->
+  <rect x="405" y="280" width="365" height="190" rx="14" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(255,255,255,0.1)" filter="url(#softShadow)"/>
+  <text x="425" y="312" fill="#EC4899" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="1">TOOL 4: CLAUDE AI FINANCIAL TIPS</text>
+  <text x="425" y="334" fill="#F8FAFC" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700">Intelligent BFSI Analysis</text>
+
+  <rect x="425" y="350" width="325" height="105" rx="8" fill="rgba(139, 92, 246, 0.08)" stroke="rgba(139, 92, 246, 0.25)"/>
+  <text x="440" y="374" fill="#C4B5FD" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">💡 AI Tip: Optimize Debt-to-Income Ratio</text>
+  <text x="440" y="396" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-size="11">"Maintaining your credit utilization below 30% and</text>
+  <text x="440" y="414" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-size="11">consolidating short-term personal debt will increase</text>
+  <text x="440" y="432" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-size="11">your loan sanction headroom by an estimated 18%."</text>
+</svg>

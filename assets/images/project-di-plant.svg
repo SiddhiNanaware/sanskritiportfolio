@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="plantBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="50%" stop-color="#042F2C" />
+      <stop offset="100%" stop-color="#022C22" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F3830" />
+      <stop offset="100%" stop-color="#0B2B24" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#059669" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#plantBg)"/>
+  
+  <!-- Subtle decorative ambient circles -->
+  <circle cx="700" cy="80" r="140" fill="#10B981" opacity="0.08" filter="blur(40px)"/>
+  <circle cx="100" cy="400" r="160" fill="#047857" opacity="0.12" filter="blur(50px)"/>
+
+  <!-- Figma App Header -->
+  <rect x="30" y="24" width="740" height="48" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="56" cy="48" r="6" fill="#EF4444"/>
+  <circle cx="76" cy="48" r="6" fill="#F59E0B"/>
+  <circle cx="96" cy="48" r="6" fill="#10B981"/>
+  <text x="120" y="53" fill="#ECFDF5" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="14">Di Plant Care — Responsive Landing Page &amp; Plant Scanner</text>
+  <rect x="620" y="34" width="130" height="28" rx="14" fill="#F24E1E"/>
+  <text x="685" y="52" fill="#FFFFFF" font-family="'Segoe UI', system-ui, sans-serif" font-weight="600" font-size="12" text-anchor="middle">🎨 Figma Design</text>
+
+  <!-- Left: Responsive Landing Page Hero Preview -->
+  <rect x="30" y="90" width="410" height="380" rx="14" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.2)" filter="url(#glow)"/>
+  
+  <!-- Header nav inside preview -->
+  <text x="56" y="130" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="800">🌿 Di Plant Care</text>
+  <text x="240" y="128" fill="#A7F3D0" font-family="'Segoe UI', sans-serif" font-size="11">Home</text>
+  <text x="285" y="128" fill="#A7F3D0" font-family="'Segoe UI', sans-serif" font-size="11">Scanner</text>
+  <text x="345" y="128" fill="#A7F3D0" font-family="'Segoe UI', sans-serif" font-size="11">Guides</text>
+
+  <rect x="56" y="160" width="130" height="24" rx="12" fill="rgba(16, 185, 129, 0.2)"/>
+  <text x="121" y="176" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" text-anchor="middle">SMART PLANT BOTANY</text>
+
+  <text x="56" y="215" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="800">Nurture Plants with</text>
+  <text x="56" y="245" fill="#6EE7B7" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="800">Intelligent Care</text>
+
+  <text x="56" y="280" fill="#9CA3AF" font-family="'Segoe UI', sans-serif" font-size="12">Designed for plant lovers to diagnose plant conditions,</text>
+  <text x="56" y="298" fill="#9CA3AF" font-family="'Segoe UI', sans-serif" font-size="12">track watering routines, and get real-time species insights.</text>
+
+  <!-- CTA Button inside preview -->
+  <rect x="56" y="325" width="140" height="40" rx="20" fill="url(#emeraldGrad)"/>
+  <text x="126" y="350" fill="#064E3B" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" text-anchor="middle">Launch Scanner</text>
+
+  <rect x="206" y="325" width="130" height="40" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="271" y="350" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600" text-anchor="middle">Learn More</text>
+
+  <!-- Feature Pills -->
+  <rect x="56" y="390" width="155" height="55" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="70" y="412" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">✓ Instant Diagnosis</text>
+  <text x="70" y="432" fill="#9CA3AF" font-family="'Segoe UI', sans-serif" font-size="10">High precision scanner</text>
+
+  <rect x="225" y="390" width="185" height="55" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="240" y="412" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">✓ Care Routine Guide</text>
+  <text x="240" y="432" fill="#9CA3AF" font-family="'Segoe UI', sans-serif" font-size="10">Water, Sunlight &amp; Soil tips</text>
+
+  <!-- Right: Phone / Scanner Viewfinder Card -->
+  <rect x="460" y="90" width="310" height="380" rx="14" fill="#0B2B24" stroke="rgba(52, 211, 153, 0.3)" filter="url(#glow)"/>
+  
+  <text x="480" y="122" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="1">PREVIEW ROUTE: /SCANNER</text>
+  <text x="480" y="145" fill="#F0FDF4" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="700">Live Plant Diagnostic</text>
+
+  <!-- Scanner viewfinder frame -->
+  <rect x="480" y="165" width="270" height="150" rx="12" fill="#04201A" stroke="#10B981" stroke-width="2" stroke-dasharray="8 6"/>
+  
+  <!-- Center Crosshairs / Scan Line -->
+  <line x1="495" y1="230" x2="735" y2="230" stroke="#34D399" stroke-width="2" opacity="0.8"/>
+  <circle cx="615" cy="230" r="28" fill="none" stroke="#6EE7B7" stroke-width="2"/>
+  
+  <!-- Plant Graphic in viewfinder -->
+  <path d="M 615 255 Q 600 230 605 210 Q 615 200 625 210 Q 630 230 615 255 Z" fill="#10B981" opacity="0.9"/>
+  <path d="M 615 240 Q 590 220 595 205 Q 605 200 615 220 Z" fill="#34D399" opacity="0.8"/>
+  <path d="M 615 235 Q 640 215 635 200 Q 625 195 615 215 Z" fill="#6EE7B7" opacity="0.8"/>
+
+  <rect x="520" y="178" width="190" height="22" rx="11" fill="rgba(16, 185, 129, 0.3)"/>
+  <text x="615" y="193" fill="#D1FAE5" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" text-anchor="middle">🔍 SCANNING IN PROGRESS</text>
+
+  <!-- Diagnostic Results Card -->
+  <rect x="480" y="328" width="270" height="125" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="495" y="352" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Monstera Deliciosa</text>
+  <rect x="670" y="338" width="65" height="20" rx="10" fill="rgba(16, 185, 129, 0.2)"/>
+  <text x="702" y="352" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" text-anchor="middle">98% HEALTH</text>
+  
+  <text x="495" y="378" fill="#A7F3D0" font-family="'Segoe UI', sans-serif" font-size="11">💧 Moisture: Optimal (62%)</text>
+  <text x="495" y="398" fill="#FDE047" font-family="'Segoe UI', sans-serif" font-size="11">☀️ Sunlight: Indirect Bright Light</text>
+  <text x="495" y="418" fill="#CBD5E1" font-family="'Segoe UI', sans-serif" font-size="11">🌱 Next Watering: In 3 Days</text>
+</svg>
